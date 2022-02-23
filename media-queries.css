@@ -88,3 +88,69 @@ footer{
 }
 
 }
+
+@media screen and (min-width: 700px) {
+main {
+    font-family: sans-serif;
+    margin: 2em;
+}
+
+.hidden-on-desktop {
+    display: none;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 40px;
+    gap: 10px 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+    img {
+        display: block;
+        width: 100%;
+        border-style: solid;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+section {
+    flex-direction: column;
+    display: flex;
+    padding: 20px;
+}
+
+#main.main {
+    width: 50%;
+    float: left;
+    padding: 30px;
+    border: 2px;
+}
+
+.sub-section {
+    width: 25%;
+    float: right;
+    padding: 30px;
+    border: 2px;
+    position: relative;
+    right: 40px;
+}
+
+footer {
+    color: red;
+}
+
+
+
+
+
+
+
+}
