@@ -21,4 +21,29 @@ li a {
     padding: 1em;
     width: 100%;
     text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+a {
+    display: inline-block;
+    padding: 1em;
+    width: 100%;
+    background-color: lightblue;
+    text-decoration: none;
+    text-align: center;
+    border-style: solid;
+    border-color: lightgray;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    width: 110%;
+}
+
+img {
+    width: 339px;
+    height: 224px;
+    border-style: solid;
 }
