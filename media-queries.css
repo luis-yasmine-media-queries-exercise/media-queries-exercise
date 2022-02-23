@@ -9,4 +9,13 @@ ul{
 
 li {
     list-style-type: none;
+    margin: .5em 0;
+}
+
+li a {
+    display: inline-block;
+    background: lightgray;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
 }
