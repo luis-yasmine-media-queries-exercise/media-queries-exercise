@@ -1,3 +1,5 @@
+@media screen and (max-width: 699px){
+
 *{
     box-sizing: border-box;
 }
@@ -83,4 +85,6 @@ section{
 footer{
     position: relative;
     top: 100px;
+}
+
 }
